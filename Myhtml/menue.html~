@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <title>公众号服务统一入口</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="shortcut icon" href="http://wx.ucas.edu.cn/images/favicon_zhxy.ico" type="image/x-icon">
+        <link rel="stylesheet" href="class.files/common_header.css">
+        <link rel="stylesheet" href="class.files/elusive.css">
+        <link rel="stylesheet" href="class.files/linecons.css">
+        <link rel="stylesheet" href="class.files/font-awesome.css">
+        <script src="class.files/pv.html"></script><script type="text/javascript" src="class.files/jweixin-1.js"></script> 
+        <script type="text/javascript" src="class.files/jquery-2.js"></script>
+        <script type="text/javascript" src="class.files/jquery.js"></script>
+        <script src="class.files/sea.js"></script>
+        <link href="../Mycss/main/Main.css" rel="stylesheet" type="text/css" /> 
+        <script>
+    $(function () {
+        var minh = $(window).height(); //浏览器当前窗口可视区域高度
+	//var minwith=$(window).with();
+        var h = minh;
+                $(".box").height(h + "px");
+                $(".box").css({"min-height": minh+'px'})
+    })
+// Set configuration
+    seajs.config({
+        base: "http://mobilemooc.sinaapp.com/TempWechat",
+        alias: {
+            "jquery": "modules/jquery/jquery.js",
+            "device": "modules/device/device.js",
+        }
+    })
+    seajs.use(["jquery"], function ($) {
+        $('.content li a').on('touchstart', function () {
+            $(this).addClass('cur');
+        }).on('touchend touchcancel', function () {
+            $(this).removeClass('cur');
+        });
+        var height = $(window).height();
+        var picheight = $(".box img").height();
+        if (picheight < height) {
+            $(".box img").css("height", "100%");
+        }
+    })
+</script>
+        <link rel="stylesheet" href="class.files/uiqr.css">
+<link rel="stylesheet" href="class.files/linecons.css">
+<link rel="stylesheet" href="class.files/font-awesome.css">
+
+                <style>
+	.link-column{top:10%}            
+	
+	.weui_mask_transparent {
+                height: 100%;
+                left: 0;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: rgba(131, 131, 131, 0.3);
+                z-index: 10;
+            }
+            .weui_toast {
+                background: rgba(40, 40, 40, 0.75) none repeat scroll 0 0;
+                border-radius: 5px;
+                color: #ffffff;
+                left: 50%;
+                margin-left: -3.8em;
+                min-height: 7.6em;
+                position: fixed;
+                text-align: center;
+                top: 180px;
+                width: 7.6em;
+                z-index: 11;
+            }
+            .weui_loading {
+                left: 50%;
+                position: absolute;
+                top: 38%;
+                width: 0;
+                z-index: 11;
+            }
+            .weui_loading_leaf::before {
+                background: #d1d1d5 none repeat scroll 0 0;
+                border-radius: 1px;
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0.098);
+                content: " ";
+                height: 3.08px;
+                position: absolute;
+                transform-origin: left 50% 0;
+                width: 8.14px;
+            }
+            .weui_loading_leaf {
+                opacity: 0.25;
+                position: absolute;
+                top: -1px;
+            }
+            .weui_loading_leaf_0::before {
+                transform: rotate(0deg) translate(7.92px, 0px);
+            }
+
+            .weui_loading_leaf_0 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-0-12;
+            }
+
+            .weui_loading_leaf_1::before {
+                transform: rotate(30deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_1 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-1-12;
+            }
+
+            .weui_loading_leaf_2::before {
+                transform: rotate(60deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_2 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-2-12;
+            }
+            .weui_loading_leaf_3::before {
+                transform: rotate(90deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_3 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-3-12;
+            }
+            .weui_loading_leaf_4::before {
+                transform: rotate(120deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_4 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-4-12;
+            }
+            .weui_loading_leaf_5::before {
+                transform: rotate(150deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_5 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-5-12;
+            }
+            .weui_loading_leaf_6::before {
+                transform: rotate(180deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_6 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-6-12;
+            }
+            .weui_loading_leaf_7::before {
+                transform: rotate(210deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_7 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-7-12;
+            }
+            .weui_loading_leaf_8::before {
+                transform: rotate(240deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_8 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-8-12;
+            }
+            .weui_loading_leaf_9::before {
+                transform: rotate(270deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_9 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-9-12;
+            }
+            .weui_loading_leaf_10::before {
+                transform: rotate(300deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_10 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-10-12;
+            }
+            .weui_loading_leaf_11::before {
+                transform: rotate(330deg) translate(7.92px, 0px);
+            }
+            .weui_loading_leaf_11 {
+                animation: 1.25s linear 0s normal none infinite running opacity-60-25-11-12;
+            }
+            .weui_loading_toast .weui_toast_content {
+                font-size: 14px;
+                margin-top: 64%;
+            }
+        </style>
+ </head>
+    <body class="bg-index">       
+<div style="top:100px;left:100px;" class="box">
+    <img src="class.files/bgpic.jpg">
+</div>
+
+<div class="slide banner" data-slide='{"action":"click","fn":"banner_ext","time":"8000"}'>
+	<div class="ban_c album"><a href="#"><img 
+
+src="../Mypictures/Main/20140225171729652.jpg" alt="美国展" /></a></div>
+	<div class="ban_c album"><a href="#"><img 
+
+src="../Mypictures/Main/20140113173751727.jpg" alt="国家科技奖" /></a></div>
+	<div class="ban_c album"><a href="#"><img src="../Mypictures/Main/2013123109501990.jpg" 
+
+alt="网站新精彩" /></a></div>
+</div>
+<div class="wrap bann_ext">
+	<ul class="l frontCover"></ul>
+</div>
+
+<script type="text/javascript" src="../Myscript/Main/script.js"></script>
+
+<div class="content">
+    <ul class="link-column">
+        <li><a class="link-1" href="http://www.ucas.ac.cn/site/87"><div class="pos"><i class=" "></i><span>活动预告</span></div></a></li>
+		
+	<li><a class="link-2" href="https://shequ.yunzhijia.com/thirdapp/forum/network/55fac69fe4b082e1fd622ae3"><div class="pos"><i class=" "></i><span>失物招领</span></div></a></li>
+	<li><a class="link-3" href="http://wx.quanzijishi.com/circle/ni6xb3b0qce"><div class="pos"><i class=" "></i><span>果壳集市</span></div></a></li>
+	<li><a class="link-5" href="http://mp.weixin.qq.com/mp/homepage?__biz=MzAwOTU0MjUyMQ==&hid=4&sn=b1e1659339b93f9e56ade205a1124c7e#wechat_redirect"><div class="pos"><i class=" "></i><span>专栏作家</span></div></a></li>
+	<li><a class="link-6" href="http://mp.weixin.qq.com/mp/homepage?__biz=MzAwOTU0MjUyMQ==&hid=2&sn=10085fa9606e97a5b4393df3072bf547#wechat_redirect"><div class="pos"><i class=" "></i><span>服务中心</span></div></a></li>
+
+	<li><a class="link-4" href="http://mp.weixin.qq.com/mp/homepage?__biz=MzAwOTU0MjUyMQ==&hid=3&sn=99d71095809f0000ef94a82c936d9289#wechat_redirect"><div class="pos"><i class=" "></i><span>关于我们&投稿</span></div></a></li>    
+    </ul>
+</div>
+
+        </div>
+        <footer data-role="footer" style="" class="">    <!--div class="footer-text">
+    &copy; 2013-2016
+    </div--></footer>
+    
+    
+      <script type="text/javascript" src="class.files/menu_02.js">
+    </script>
+        <script type="text/javascript" src="class.files/stats.js"></script>
+</body><!--file--></html>

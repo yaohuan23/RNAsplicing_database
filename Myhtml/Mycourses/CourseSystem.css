@@ -1,0 +1,1004 @@
+﻿@charset"utf-8";
+#MyMenum
+{
+position:relative;
+width:15%;
+height:100%;
+background-color:yellow;
+border-radius:20px;
+}
+.MenumContainer ul
+{
+position:relative;
+margin-bottom:10%;
+}
+.MenumContainer li
+{
+list-style-type:none;
+}
+.InfoContainer
+{
+position:absolute;
+width:83%;
+margin-top:10px;
+top:0px;
+height:98%;
+left:16%;
+border-left:5px solid yellow;
+border-top:5px solid yellow;
+background-color:#fff;
+border-radius:20px;
+}
+.coursetainer li{
+float:left;
+margin-top:50px;
+margin-left:50px;
+list-style-type:none;
+}
+ul.coursetainer{
+position:relative;
+}
+a.course{
+position:relative;
+display:block;
+width:200px;
+height:200px;
+border:5px solid #4b4b4b;
+background:#fff no-repeat center;
+background-size:cover;
+background-image:url(./suc.png);
+border-radius:100px;
+}
+.mesgcontainer {
+opacity:0.2;
+position:absolute;
+width:15em;
+background:#fff;
+bottom:50px;
+right:-1px;
+}
+.mesgcontainer p{margin-left:3em;}
+a.course:hover .mesgcontainer,a.course:focus .mesgcontainer{
+opacity:0.7;
+bottom:100px;}
+a.course:hover ,a.course:focus {
+border-color:#fff;}
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>>           EASANA STYLE SHEET        <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+#easanaloading{
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top:-150px;
+    background-image: url("../images/easanaloading.gif")
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family:  sans-serif,verdana, Monaco, "Bitstream Vera Sans Mono","Nimbus Sans L";
+    font-size: 18px;
+}
+
+img{
+    border:none;
+}
+
+h3{
+    margin-top:10px;
+}
+h4{
+    margin-top:10px;
+}
+
+th a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type=submit]{
+    height: 20px;
+    width: 70px;
+    background: url("../images/button_submit.gif") no-repeat left top;
+    color:#fff;
+    line-height:20px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight:bold;
+    color: darkslategray;
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+#content{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    padding-bottom:20px;
+    background-color: white;
+}
+
+.est_out{
+    border:none;
+    vertical-align: top;
+}
+#page{
+    clear:both;
+}
+
+.nbprobes {
+    margin:5px;
+    padding:5px;
+    background-color: #EFEEEE;
+    border-bottom: 1px solid;
+    color:black;
+    width:210px;
+    float:left;
+}
+
+.easanacomparison{
+    margin-top: 10px;
+}
+
+
+.easanacomparisonContener{
+    /*overflow: auto;
+    width: 1000px;*/
+}
+.easanacheckbox-left {
+    float:left;
+    color:black;
+    width: 110px;
+}
+.easanacheckbox-right {
+    float:left;
+    color:black;
+    width: 100px;
+}
+
+
+.easanacheckboxcontener{
+    width: 210px;
+    background-color: #EFEEEE;
+    margin:5px;
+    padding:5px;
+    height:60px;
+}
+
+.estbutton{
+    vertical-align: middle;
+    line-height:17px;
+    height:17px;
+    padding-bottom:5px;
+    text-align: right;
+}
+
+.estbutton img{
+    float:right;
+    padding-left: 10px;
+}
+
+.easanabutton{
+    display:block;
+    height: 31px;
+    width: 100px;
+    background: url("../images/button.gif") no-repeat left top;
+    color:#fff;
+    line-height:31px;
+    text-align:center;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.easanabutton:hover{
+    background: url("../images/button_hover.gif") no-repeat left top;
+}
+
+.selectform{
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+}
+
+.formlabel{
+    font-weight: bold;
+}
+
+.formlabelLittle{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+.easanafilterform{
+    background-color:#006E91;
+    color:white;
+    width:100%;
+    padding-left:10px;
+    clear:both;
+}
+
+.easanafilterform tr{
+
+}
+
+.easanafilterform a{
+
+}
+
+.copyright{
+    font-size: 9px;
+}
+
+/*header*/
+#header{
+    display: block;
+    background-image: url("../images/easana_logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height:80px;
+}
+
+
+/*header*/
+#header_createaccount{
+    display: block;
+    background-image: url("../images/genosplice_logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height:80px;
+}
+
+#selectDB{
+    width:140px;
+}
+
+/*header*/
+#fastdbheader{
+    display: block;
+    background-image: url("../images/logo_fastdb_big.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    border: 1px solid lightgray;
+    min-height:80px;
+}
+
+#headerInfos {
+    background-color: #006E91;
+    color:white;
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    clear:both;
+}
+
+
+
+#error{
+    clear:both;
+}
+#headerInfos a{
+    color:white;
+}
+
+img.organism{
+    height: 55px;
+}
+
+div.organism{
+    width:60px;
+    text-align:center;
+    font-weight:bold;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1;
+}
+
+.spanheader{
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.right{
+    padding-top:15px;
+    text-align: right;
+    line-height: 1.2;
+    padding-right:10px;
+}
+
+.date{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#dbform{
+}
+
+.spantext{
+    font-size: 11px;
+    font-weight:normal;
+}
+
+.contact{
+    border:none;
+    padding-left:10px;
+}
+
+.transfert{
+    border:none;
+    padding-left:10px;
+}
+
+#footer {
+    font-size: 36px;
+    float: inherit;
+    background-color: white;
+    display: block;
+    text-align: center;
+    border-top: 2px #2E8FA2 solid;
+    margin-left:-35px;
+    margin-top: 60px;
+    margin-right:0px;
+    clear:both;
+}
+
+h1{
+    font-size:12px;
+    font-weight: bold;
+}
+
+
+.infodiv{
+    /*border:1px solid lightgray;*/
+    padding: 10px;
+}
+
+.welcomediv{
+    border: 1px solid #2E8FA2;
+    padding:5px;
+    clear:both;
+}
+
+.loginform{
+    margin-top:30px;
+    text-align:right;
+    margin-right:10px;
+    line-height: 3;
+    float:right;
+}
+
+#resultSearch{
+    font-size:10px;
+}
+
+.even{
+    background-color:white;
+}
+
+.odd{
+    background-color:#E4F1F7;
+}
+
+.resultContent{
+    padding-left:10px;
+}
+
+.found{
+    color:red;
+    font-weight:bold;
+}
+
+.infoAriane{
+    font-style: italic;
+    font-weight:bold;
+}
+
+#ariane{
+    /*border: 1px solid lightgray;*/
+    line-height:40px;
+    padding-left:10px;
+    clear:both;
+}
+
+/* Blast result */
+.alignResultPageBottom{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    font-size: 10px;
+    width:900px;
+    line-height:20px;
+    height:20px;
+    clear:both;
+    text-align:center;
+}
+.alignResultPageTop{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    font-size: 10px;
+    width:900px;
+    text-align:center;
+    clear:both;
+}
+
+.alignResultPageCurrent {
+    display: inline;
+    margin-left:5px;
+    margin-right:5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+div.alignResultPageTop a{
+    display: inline;
+    margin-left:2px;
+    margin-right:2px;
+    text-decoration: none;
+}
+
+div.alignResultPageBottom a{
+    display: inline;
+    margin-left:2px;
+    margin-right:2px;
+    text-decoration: none;
+}
+
+#probepatternselector{
+    font-size: 12px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+#fileUploader{
+    float:left;
+    width:436px;
+    margin-top:3px;
+    border:1px solid lightgray;
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+
+#resultFilesManager{
+    float:right;
+    width:436px;
+    padding-left:10px;
+    margin-top:3px;
+    border:1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+#fileManager{
+    float:left;
+    width:436px;
+    padding-left:10px;
+    border:1px solid lightgray;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    clear:left;
+}
+
+td.lefttd{
+    text-align:left;
+}
+td.righttd{
+    text-align:right;
+}
+td.centertd{
+    text-align:center;
+}
+
+#fileManager ul{
+    margin-left: 20px;
+}
+
+.notice{
+    color: red;
+    font-weight: bold;
+}
+
+.filesize{
+    font-weight: bold;
+}
+
+ul#projectIdSelect{
+    font-size:10px;
+    margin-left:0;
+    padding-left:10px;
+    display:block;
+    height:400px;
+    width:500px;
+    overflow: auto;
+}
+
+ul#projectIdSelect li{
+    font-size:10px;
+    list-style: none;
+    margin-left:0;
+    padding:0;
+    line-height:18px;
+}
+
+ul.searchable li:nth-child(odd) { background-color:#E4F1F7; }
+ul.searchable li:nth-child(even) { background-color:#fff; }
+
+#projectIdSelect{
+    font-size:10px;
+}
+
+#uploadedfiles tr, #resultfiles tr{
+    margin:10px 0px 15px;
+    text-align: left;
+    background-image: url(../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 10px;
+    padding: 4px;
+}
+
+/* tables */
+table.tablesorter {
+    font-family:arial;
+    background-color: #CDCDCD;
+    margin:10px 0px 15px;
+    font-size: 10px;
+    width: 400px;
+    text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 10px;
+    padding: 4px;
+}
+table.tablesorter thead tr .header {
+    background-image: url(../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
+#progressbar{
+    display:none;
+    width:100%;
+    height:20px;
+}
+
+#progressbar.value{
+    width:0%;
+    height:20px;
+}
+
+.tab-selected {
+    font-weight: bold;
+    background-image: url("../images/easana_tab_selected.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    line-height: 20px;
+    margin-right:2px;
+    width:130px;
+    text-align: center;
+    height:25px;
+    line-height:25px;
+}
+.tab{
+    float:left;
+    background-image: url("../images/easana_tab.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    line-height:20px;
+    margin-right:1px;
+    width:130px;
+    text-align: center;
+    height:25px;
+    line-height:25px;
+}
+
+.tab a {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tab-selected a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.array{
+    border-collapse: collapse;
+    width:100%;
+    border-top:1px solid;
+    border-bottom:1px solid;
+}
+
+.annotations{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align:left;
+    border:1px solid #006E91;
+}
+.annotations tr{
+    vertical-align: baseline;
+    padding-bottom: 50px;
+}
+
+.annotations td{
+}
+.annotations li{
+    font-weight:normal;
+    margin-left: 20px;
+}
+
+.annotations li.annottype{
+    font-weight:bold;
+}
+
+.array th{
+    background-color: #BBDDFF;
+    font-weight:bold;
+}
+
+.tabcontener{
+    margin-top:5px;
+    clear:both;
+}
+
+/* Gene information bloc */
+#infoGene {
+    width: 900px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Gene information tab */
+#tabInfoGene {
+    width: 900px ;
+    text-align: center;
+    background-color: #bbddff;
+    border-collapse: collapse;
+}
+
+#tabInfoGene th{
+    background-color: #6699ff;
+    color: #fff;
+}
+
+#logindiv{
+    float:right;
+    display:table-cell;
+    padding-top:65px;
+}
+
+.logindivvisu{
+    height:25px;
+    margin-left:10px;
+    line-height:25px;
+    float:right;
+}
+
+
+.previouspagelink{
+    text-decoration: underline;
+}
+
+.previouspagelink:hover{
+    cursor: url;
+}
+
+
+div.probedata{
+    overflow: auto;
+    max-height:300px;
+    margin-top:15px;
+}
+
+table.probedata{
+    overflow:auto;
+    border-collapse: collapse;
+}
+
+table.probedata th{
+    white-space: nowrap;
+    background-color: #006E91;
+    color:white;
+    border-right:1px solid;
+    border-left:1px solid;
+    padding-right:3px;
+    padding-left:3px;
+}
+
+
+table.probedata td{
+    white-space: nowrap;
+    border-right:1px solid #006E91;
+    border-left:1px solid #006E91;
+    padding-right:3px;
+    padding-left:3px;
+    text-align:center;
+}
+
+table.probedata tr.even{
+    white-space: nowrap;
+    background-color:white;
+}
+
+table.probedata tr.odd{
+    white-space: nowrap;
+    background-color:#E4F1F7;
+}
+
+#vizuform{
+    float:left;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>>        Splicing DIV          <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>>        Splicing DIV          <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+#splicingEvent {
+    width: 650px;
+    float: left;
+}
+
+.evidence{
+    width: 300px;
+}
+
+/* splicing event tab */
+.tabSplicing {
+    width:100%;
+    clear:both;
+}
+
+
+#genetranscripts{
+    margin-left:35px;
+    width:800px;
+}
+
+#transcripts {
+    width: 100%;
+    /*    height: 340px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    height:300px;
+}
+
+.transcript{
+    border-top : 1px solid;
+}
+.transcriptname{
+    height:15px;
+    line-height: 15px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.transcriptname img{
+    width: 20px;
+    height: 15px;
+    border: none;
+}
+
+.transcriptFlash{
+    background-position: center;
+    background-image: url("../images/loadingAnimation.gif");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    clear:both;
+    margin-left:35px;
+    margin-top:5px;
+    width:800px;
+}
+
+.transcriptFlashInvisible{
+    margin-left:150px;
+    display:none;
+}
+
+.dl {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.dl img {
+    width: 15px;
+    height: 15px;
+    border : none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>>        Exons / Introns DIV          <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+/* sequence bloc tab */
+#sequenceB {
+    margin-top:20px;
+    width: 230px;
+    float:right;
+    overflow: auto;
+    height: 450px;
+}
+
+div#tabSequence{
+    overflow: auto;
+    max-height: 300px;
+}
+
+/* sequence tab */
+#tabSequence {
+    border-collapse: collapse;
+    width:100%;
+}
+
+#tabSequence a{
+    color: #000;
+    text-decoration: none;
+}
+
+#tabSequence a:hover{
+    color: #0044aa;
+    font-weight: bold;
+}
+
+#tabSequence tr{
+    line-height:20px;
+}
+
+#tabSequence a:visited{
+    color: #6699ff;
+}
+
+#tabSequence tr:hover td{
+    background-color: #fff;
+}
+
+#tabSequence th{
+    background:#BBDDFF;
+}
+
+.Exon {
+    background-color: #bbddff;
+}
+
+.Intron {
+    background-color : #ddeeff;
+}
+
+#sequenceEx p{
+    font-size: 10px;
+    font-family: "Bitstream Vera Sans Mono",Monaco, "DejaVu Sans Mono", "Liberation Mono", Courier;
+    height: 300px;
+    overflow: auto;
+}
+
+#d_clip_button{
+    text-decoration: underline;
+}
+
+#copiedSuccess{
+    display:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:25px;
+    margin-top:15px;
+    position:fixed;
+    width: 150px;
+    background: url('../images/ico_check.png') left no-repeat #EFA;
+    background-position:center left;
+    border: solid 1px #BD8;
+}
+
+img.clickDisapear{
+    cursor: pointer;
+}
+
+li{
+    margin-left:20px;
+}
+
+table.genesearchresult {
+    width:100%;
+}
+
+table.genesearchresult tr{
+    height:20px;
+}
+
+table.genesearchresult tr td.cellPage{
+    width: 20px;
+    text-align: center;
+}
+
+table.genesearchresult tr td.cellStableId{
+    width: 100px;
+    text-align: center;
+}
+
+table.genesearchresult tr td.cellSymbol{
+    text-align: center;
+}
+
+table.genesearchresult tr td.cellExonNumber, table.genesearchresult tr td.cellCoord {
+    text-align: center;
+    width: 100px;
+}
+
+
+table.genesearchresult tr.even{
+    background-color:white;
+}
+
+table.genesearchresult tr.odd{
+    background-color:#E4F1F7;
+}
+table.genesearchresult th{
+    border-bottom: 1px solid black;
+}
+
+.expirationdate{
+    color:red;
+}
+
+#cancelGeneSearch{
+    /*margin-top:4px;
+    margin-bottom:4px;*/
+    margin-left:4px;
+    width:12px;
+    height:12px;
+    /*position:fixed;*/
+    display:none;
+}
+
+
+
+

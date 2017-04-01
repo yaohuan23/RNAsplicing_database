@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+body{
+font-style: italic;
+font-stretch: wider;
+}
+img{top:40px;
+left: 30%;
+position: absolute;
+}
+h{top:120px;
+left: 50%;
+position: absolute;
+color: red;
+}
+      #div1{position:absolute;
+	top:200px;}
+	div{left: 35%;}
+	.hidden{
+	position:absolute;
+	top:-999;
+	left:-999;} 
