@@ -4,7 +4,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["stat"])){
 	$authon=getAuthon_key(time());
 	if($_GET["stat"]=="1001"){
 		echo "<script>";  
-		echo "document.location='http://genedit.sinaapp.com/RnaSplicing/index.php?authon=$authon'";  
+		echo "document.location='http://159.226.67.97/student2017/201628016715022/RnaSplicing/index.php?authon=$authon'";  
 		echo "</script>";
 		exit;  
 	}

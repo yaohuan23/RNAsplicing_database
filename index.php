@@ -24,7 +24,7 @@ function check_authon($authon,$my_authon_obj){
 $authon_value=$my_authon_obj-> get_value($authon);
 //echo time()."time";
 //echo $authon_value."myvalue";
-if((time()-$authon_value)<5){
+if((time()-$authon_value)<7200){
 	return true;
 }
 return false;
@@ -79,7 +79,7 @@ return false;
                     <!-- end of home -->
                     <div class="panel" id="blog">
                         <div class="post_box">
-                            <h2><a href="http://genedit.sinaapp.com/RnaSplicing/Myhtml/Mycourses/Mycourses.php">RNA SPLICING APP</a></h2>
+                            <h2><a href="http://159.226.67.97/student2017/201628016715022/RnaSplicing/App/index.php?authon=<?php $my_authon_obj=new Authon(); echo $my_authon_obj->get_authon()?>">RNA SPLICING APP</a></h2>
                             <img src="images/templatemo_image_03.jpg" class="image_wrapper" alt="Image 3" />
                             <p><span class="cat">RNA SPLICING</span></p>
                         </div>                       
